@@ -95,8 +95,8 @@ analytics:
 # Site Author
 author:
   name             : "salmin609"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Welcome"
+  avatar           : "/asset/jam.PNG"
+  bio              : "Digipen / KMU undergraduate student \n Major in RTIS"
   location         : "Korea"
   email            : "ryan95kr@gmail.com"
   links:
