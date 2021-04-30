@@ -1,0 +1,10 @@
+# main links links
+main:
+  - title: "My Designs"
+    url: /#designs
+
+  - title: "My Process"
+    url: /#process
+
+  - title: "My Writing"
+    url: "http://blog.qaidjacobs.com"
