@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "My methods, my madness."
+title                    : "Salmin"
 title_separator          : "-"
-name                     : "Qaid Jacobs"
-description              : "The portfolio of a Product & System Designer, father, DJ, and dreamer."
+name                     : "Kim sang min"
+description              : "Portfolio"
 url                      : #"http://qaidjacobs.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -37,7 +37,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "qaidj"
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -49,8 +49,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-  - "https://twitter.com/qaidj"
-  - "https://github.com/qaid"
+  - #"https://twitter.com/qaidj"
+  - #"https://github.com/qaid"
 
 # Analytics
 analytics:
@@ -65,27 +65,27 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Qaid Jacobs"
-  avatar           : "bio-photo.jpg"
-  bio              : "Staying dry in Amsterdam, designing and conspiring."
-  location         : "Amsterdam"
+  name             : "Kim sangmin"
+  avatar           : "asset/jam.png"
+  bio              : ""
+  location         : "Korea"
   email            : 
-  uri              : "http://qaidjacobs.com"
+  uri              : ""
   bitbucket        : 
   codepen          :
   dribbble         :
   flickr           : 
   facebook         :
   foursquare       :
-  github           : "qaid"
+  github           : ""
   google_plus      :
   keybase          :
-  instagram        : "qaid"
+  instagram        : ""
   lastfm           :
   linkedin         : 
   pinterest        :
-  soundcloud       : "humble"
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  soundcloud       : ""
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          :

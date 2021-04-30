@@ -1,25 +1,25 @@
 ---
-title: "Qa'id Jacobs - Product & System Designer"
+title: "Kim sangmin"
 layout: splash
 permalink: /
 date: 2016-07-26T13:38:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: wet-amsterdam.jpg
+  overlay_image: "asset/jam.png"
   cta_label:
   cta_url:
   caption:
-excerpt: "Currently staying dry in Amsterdam, raising eyebrows and a family."
+excerpt: "Digipen & Kmu undergraduate student"
 intro:
-  - excerpt: "As a Product and UX designer, I thrive when building and refining systems and products that embrace and deliver on user needs and experiences.  I'm passionate about understanding the systems involved in any design challenge and have led teams designing solutions for projects across industries."
+  - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
-  - image_path: fnd-snd-square.jpg
-    alt: "FND SND design"
-    title: "Visual & Print"
-    excerpt: "My very first and always favorite form factor is the poster and album artwork."
+  - image_path: "asset/BodyCheck_title.JPG"
+    alt: ""
+    title: "GAM 250 Project"
+    excerpt: "2D game made by custome engine"
     url: "print-design"
-    btn_label: "See more visual design"
+    btn_label: "Detail"
     btn_class: "btn--inverse"
   - image_path: black-august-2007.jpg
     alt: "black august ID"
