@@ -18,7 +18,7 @@ feature_row:
     alt: ""
     title: "GAM 250 Project"
     excerpt: "2D game made by custome engine"
-    url: "print-design"
+    url: "/print-design"
     btn_label: "Detail"
     btn_class: "btn--inverse"
   - image_path: black-august-2007.jpg
