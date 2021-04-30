@@ -6,7 +6,7 @@ date: 2016-07-26T13:38:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: "asset/jam.png"
+  overlay_image: "jam.png"
   cta_label:
   cta_url:
   caption:
@@ -14,7 +14,7 @@ excerpt: "Digipen & Kmu undergraduate student"
 intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
-  - image_path: "asset/BodyCheck_title.JPG"
+  - image_path: "BodyCheck_title.JPG"
     alt: ""
     title: "GAM 250 Project"
     excerpt: "2D game made by custome engine"
