@@ -21,7 +21,7 @@ feature_row4:
 ---
 
 
-![image](https://github.com/salmin609/salmin609.github.io/blob/master/images/KBM.gif){: .align-center}
+![image](https://github.com/salmin609/salmin609.github.io/blob/master/images/KBM.gif?raw=true){: .align-center}
 
 {% include feature_row id="feature_row1" type="left" %}
 
