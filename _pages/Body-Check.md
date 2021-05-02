@@ -18,6 +18,8 @@ feature_row3:
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XRJpCyVH-ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+![image](https://media1.giphy.com/media/jp8vmgIxRtKPmdnkyj/giphy.gif?cid=ecf05e47328ab653e6da460ffbf8bfa4a2781fac5df90c6c&rid=giphy.gif){: .align-center}
+
 {% include feature_row id="feature_row1" type="left" %}
 
 {% include feature_row id="feature_row2" %}
