@@ -11,7 +11,7 @@ title                    : "Salmin"
 title_separator          : "-"
 name                     : "Kim sang min"
 description              : "Portfolio"
-url                      : #"http://qaidjacobs.com"
+url                      : # http://localhost:4000/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : "500x300.png"

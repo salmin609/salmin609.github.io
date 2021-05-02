@@ -15,16 +15,13 @@ feature_row2:
 feature_row3:
   - title: "BodyCheck"
     excerpt: "GAM250 Project"
-feature_row4:
-  - title: "Youtube video"
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/XRJpCyVH-ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
-
-![image](https://github.com/salmin609/salmin609.github.io/blob/master/images/KBM.gif?raw=true){: .align-center}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XRJpCyVH-ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include feature_row id="feature_row1" type="left" %}
 
 {% include feature_row id="feature_row2" %}
 
 {% include feature_row id="feature_row3" type="center" %}
+

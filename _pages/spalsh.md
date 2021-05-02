@@ -21,13 +21,13 @@ feature_row:
     url: "/Body-Check"
     btn_label: "Detail"
     btn_class: "btn--inverse"
-  - image_path: black-august-2007.jpg
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/opengl_logo.png?raw=true
     alt: "black august ID"
-    title: "Illustration & Typography"
-    excerpt: "Sometimes the keyboard just won't cut it for the task at hand and I pick up the pen and pencil."
-    url: "illustration"
-    btn_label: "See more illustration and typo"
-    btn_class: "btn--inverse"
+    title: "OpenGL"
+    excerpt: "OpenGL Description"
+    url: "/OpenGL"
+    btn_label: "Detail"
+    btn_class: ""
   - image_path: boxes-and-boxes.jpg
     title: "UI & UX Design"
     excerpt: "Building a variety of interfaces for websites and apps, I've made lots and lots of boxes. Lots."
@@ -37,9 +37,9 @@ feature_row:
 feature_row2:
   - image_path: gallery-of-ideas.jpg
     alt: "A group interested in ideas on the wall"
-    title: "Case Study: When I redesigned a flagship product"
-    excerpt: "I lead the company through the discovery of product strengths and implemented a visual language and framework that maximized speed and efficiency."
-    url: "#nipo-redesign"
+    title: "OpenGL"
+    excerpt: "Description"
+    url: "/OpenGL"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row3:
@@ -70,4 +70,4 @@ feature_row3:
 
 {% include feature_row id="feature_row3" type="right" %}
 
-<!-- {% include feature_row id="feature_row4" type="center" %} -->
+{% include feature_row id="feature_row4" type="center" %}
