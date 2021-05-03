@@ -1,10 +1,10 @@
 # main links links
 main:
-  - title: "My Designs"
+  - title: "AboutMe"
+    url: /AboutMe
+
+  - title: "Personal Project"
     url: /#designs
 
-  - title: "My Process"
+  - title: "Team Project"
     url: /#process
-
-  - title: "My Writing"
-    url: "http://blog.qaidjacobs.com"
