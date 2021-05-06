@@ -6,7 +6,7 @@ date: 2016-07-26T13:38:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: "jam.png"
+  overlay_image: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
   cta_label:
   cta_url:
   caption:
@@ -14,12 +14,12 @@ excerpt: "Digipen & Kmu undergraduate student"
 intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
-  - image_path: "BodyCheck_title.JPG"
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
     alt: ""
-    title: "GAM 250 Project"
-    excerpt: "2D game made by custome engine"
-    url: "/Body-Check"
-    btn_label: "Detail"
+    title: "Blank"
+    excerpt: "Blank1"
+    url: ""
+    btn_label: "Not available now"
     btn_class: "btn--inverse"
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/opengl_logo.png?raw=true
     alt: "black august ID"
@@ -28,26 +28,26 @@ feature_row:
     url: "/OpenGL"
     btn_label: "Detail"
     btn_class: ""
-  - image_path: boxes-and-boxes.jpg
-    title: "UI & UX Design"
-    excerpt: "Building a variety of interfaces for websites and apps, I've made lots and lots of boxes. Lots."
-    url: "app-design"
-    btn_label: "See more interface design"
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/images.jpg?raw=true
+    title: "Unity"
+    excerpt: "Multi-player game made with Unity."
+    url: ""
+    btn_label: "Not available now"
     btn_class: "btn--inverse"
 feature_row2:
-  - image_path: gallery-of-ideas.jpg
+  - image_path: BodyCheck_title.JPG
     alt: "A group interested in ideas on the wall"
-    title: "OpenGL"
-    excerpt: "Description"
-    url: "/OpenGL"
+    title: "GAM250 Project"
+    excerpt: "2D game made by custome engine"
+    url: "/Body-Check"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row3:
-  - image_path: nipo-blog.jpg
-    alt: "mockup of a website design"
-    title: "Collaboration Culture Creator"
-    excerpt: "I lead Design Sprints, started the company Hackathon, organized the adoption of Slack, and launched the company blog"
-    url: "#nipo-collaboration"
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+    alt: ""
+    title: "GAM300+ Project"
+    excerpt: "This space for GAM300+ Project"
+    url: ""
     btn_label: "Read More"
     btn_class: "btn--inverse"
 # feature_row4:
