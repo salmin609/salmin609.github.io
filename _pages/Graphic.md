@@ -54,6 +54,11 @@ feature_row10:
     alt: ""
     title: "Raytracing"
     excerpt: "Simple raytracing with ray tracing algorithm"
+feature_row10:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/part2.gif?raw=true
+    alt: ""
+    title: "Particle"
+    excerpt: "1000000 particle with compute shader"
 ---
 
 
@@ -67,3 +72,4 @@ feature_row10:
 {% include feature_row id="feature_row8" type="left" %}
 {% include feature_row id="feature_row9" type="left" %}
 {% include feature_row id="feature_row10" type="left" %}
+{% include feature_row id="feature_row11" type="left" %}
