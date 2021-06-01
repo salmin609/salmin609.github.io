@@ -60,7 +60,7 @@ feature_row11:
     title: "Particle"
     excerpt: "1000000 particle with compute shader"
 feature_row12:
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/part2.gif?raw=true
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/PBF.gif?raw=true
     alt: ""
     title: "Position Based Fluid"
     excerpt: "10000+ particle fluid simulation with compute shader"
