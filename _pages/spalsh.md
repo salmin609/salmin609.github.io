@@ -14,13 +14,13 @@ excerpt: "Digipen & Kmu undergraduate student"
 intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Nvidia_CUDA_Logo.jpg?raw=true
     alt: ""
-    title: "Blank"
-    excerpt: "Blank1"
-    url: ""
-    btn_label: "Not available now"
-    btn_class: "btn--inverse"
+    title: "Cuda + OpenGL"
+    excerpt: "Using Cuda"
+    url: "/Cuda"
+    btn_label: "Detail"
+    btn_class: ""
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/opengl_logo.png?raw=true
     alt: "black august ID"
     title: "OpenGL"
