@@ -7,7 +7,7 @@ feature_row1:
   - image_path: BodyCheck_title.JPG
     alt: ""
     title: "BodyCheck"
-    excerpt: "Me and my four teammates make 2D Game called BodyCheck for Gam250 final project. It takes 2 semester to finish, 1 for make custom engine using FMOD, OpenGL, another for making game"
+    excerpt: "My teams make 2D Game called BodyCheck for Gam250 final project. It takes 2 semester to finish, 1 for make custom engine using FMOD, OpenGL, another for making game"
 feature_row2:
   - image_path: BodyCheck_2.jpg
   - image_path: BodyCheck_3.jpg
