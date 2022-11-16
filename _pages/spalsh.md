@@ -35,6 +35,15 @@ feature_row2:
     url: "/Body-Check"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+feature_row3:
+  - image_path: RayTracingImage.png
+    alt: "RayTracing"
+    title: "CS500 - RayTracing"
+    excerpt: "Raytracing"
+    url: "/Raytracing"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
 # feature_row4:
 #  - image_path:
 #    alt: "placeholder image 2"
