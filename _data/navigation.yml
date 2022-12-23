@@ -1,10 +1,10 @@
 # main links links
 main:
-  # - title: "AboutMe"
-  #   url: /AboutMe
+  - title: "AboutMe"
+    url: /AboutMe
 
-  # - title: "Personal Project"
-  #   url: /#designs
+  - title: "Personal Project"
+    url: /#designs
 
-  # - title: "Team Project"
-  #   url: /#process
+  - title: "Team Project"
+    url: /#process

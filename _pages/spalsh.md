@@ -6,14 +6,21 @@ date: 2016-07-26T13:38:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://github.com/salmin609/salmin609.github.io/blob/master/images/digipenImg.jpg?raw=true
+  overlay_image: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
   cta_label:
   cta_url:
   caption:
 excerpt: "Digipen & Kmu undergraduate student"
 intro:
-  - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic programming"
+  - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Nvidia_CUDA_Logo.jpg?raw=true
+    alt: ""
+    title: "Cuda + OpenGL"
+    excerpt: "Using Cuda"
+    url: "/Cuda"
+    btn_label: "Detail"
+    btn_class: ""
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/opengl_logo.png?raw=true
     alt: "black august ID"
     title: "OpenGL"
@@ -23,7 +30,7 @@ feature_row:
     btn_class: ""
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/images.jpg?raw=true
     title: "Unity"
-    excerpt: "Unity"
+    excerpt: "Multi-player game made with Unity."
     url: ""
     btn_label: "Not available now"
     btn_class: "btn--inverse"
@@ -36,14 +43,13 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row3:
-  - image_path: RayTracingImage.png
-    alt: "RayTracing"
-    title: "CS500 - RayTracing"
-    excerpt: "Raytracing"
-    url: "/Raytracing"
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+    alt: ""
+    title: "GAM300+ Project"
+    excerpt: "This space for GAM300+ Project"
+    url: ""
     btn_label: "Read More"
     btn_class: "btn--inverse"
-
 # feature_row4:
 #  - image_path:
 #    alt: "placeholder image 2"
