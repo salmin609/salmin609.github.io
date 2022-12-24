@@ -14,25 +14,12 @@ excerpt: "Digipen & Kmu undergraduate student"
 intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Nvidia_CUDA_Logo.jpg?raw=true
-    alt: ""
-    title: "Cuda + OpenGL"
-    excerpt: "Using Cuda"
-    url: "/Cuda"
-    btn_label: "Detail"
-    btn_class: ""
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/opengl_logo.png?raw=true
-    alt: "black august ID"
-    title: "OpenGL"
-    excerpt: "OpenGL Description"
-    url: "/OpenGL"
-    btn_label: "Detail"
-    btn_class: ""
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/images.jpg?raw=true
-    title: "Unity"
-    excerpt: "Multi-player game made with Unity."
-    url: ""
-    btn_label: "Not available now"
+  - image_path: BodyCheck_title.JPG
+    alt: "A group interested in ideas on the wall"
+    title: "GAM250 Project"
+    excerpt: "2D game made by custome engine"
+    url: "/Body-Check"
+    btn_label: "Read More"
     btn_class: "btn--inverse"
 feature_row2:
   - image_path: BodyCheck_title.JPG
