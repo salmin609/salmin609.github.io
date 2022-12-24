@@ -17,7 +17,9 @@ intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
-    alt: "Gam400 Project"
+    width : "2000"
+    height : "500"
+    alt: ""
     title: "Gam400 Project"
     excerpt: "Massive animating object rendering"
     url: "/Gam400"
@@ -57,7 +59,7 @@ feature_row3:
 
 
 <a name="designs"></a>
-{% include feature_row %}
+{% include feature_row id = "feature_row" type = "left" %}
 
 
 
