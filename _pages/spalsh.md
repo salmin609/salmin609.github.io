@@ -1,4 +1,6 @@
 ---
+
+
 title: "Kim sangmin"
 layout: splash
 permalink: /
@@ -14,13 +16,14 @@ excerpt: "Digipen & Kmu undergraduate student"
 intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
 feature_row:
-  - image_path: BodyCheck_title.JPG
-    alt: "A group interested in ideas on the wall"
-    title: "GAM250 Project"
-    excerpt: "2D game made by custome engine"
-    url: "/Body-Check"
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
+    alt: "Gam400 Project"
+    title: "Gam400 Project"
+    excerpt: "Massive animating object rendering"
+    url: "/Gam400"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+
 feature_row2:
   - image_path: BodyCheck_title.JPG
     alt: "A group interested in ideas on the wall"
@@ -47,10 +50,16 @@ feature_row3:
 #    btn_class: "btn--inverse"
 ---
 
+
+
 {% include feature_row id="intro" type="center" %}
+
+
 
 <a name="designs"></a>
 {% include feature_row %}
+
+
 
 <a name="process"></a>
 {% include feature_row id="feature_row2" type="left" %}
