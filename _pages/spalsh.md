@@ -42,6 +42,14 @@ feature_row3:
     url: ""
     btn_label: "Read More"
     btn_class: "btn--inverse"
+feature_row4:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+    alt: ""
+    title: "CS300/350 Graphic Project"
+    excerpt: "This space for GAM300+ Project"
+    url: "/CS300350"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 # feature_row4:
 #  - image_path:
 #    alt: "placeholder image 2"
