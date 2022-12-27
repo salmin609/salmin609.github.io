@@ -15,7 +15,7 @@ header:
 excerpt: "Digipen & Kmu undergraduate student"
 intro:
   - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
-feature_row:
+Gam400:
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
     width : "2000"
     height : "500"
@@ -26,54 +26,70 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
-feature_row2:
-  - image_path: BodyCheck_title.JPG
-    alt: "A group interested in ideas on the wall"
+Gam250:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/BodyCheck_title.JPG?raw=true
+    width : "3000"
+    height : "500"
+    alt: ""
     title: "GAM250 Project"
     excerpt: "2D game made by custome engine"
     url: "/Body-Check"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-feature_row3:
+Gam300:
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+    width : "2000"
+    height : "500"
     alt: ""
     title: "GAM300+ Project"
     excerpt: "This space for GAM300+ Project"
     url: ""
     btn_label: "Read More"
     btn_class: "btn--inverse"
-feature_row4:
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+CS300350:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/300350DisplayImg.png?raw=true
+    width : "2000"
+    height : "500"
     alt: ""
     title: "CS300/350 Graphic Project"
     excerpt: "This space for GAM300+ Project"
     url: "/CS300350"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-# feature_row4:
-#  - image_path:
-#    alt: "placeholder image 2"
-#    title: "Placeholder Image Center Aligned"
-#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-#    url: "#test-link"
-#    btn_label: "Read More"
-#    btn_class: "btn--inverse"
+CS500:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/RayTracingImage.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "CS500 Raytracing Project"
+    excerpt: "CS500 Raytracing Project"
+    url: "/CS500"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+CS599:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/RayTracingImage.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "CS599 Real-time Raytracing with Vulkan"
+    excerpt: "CS599 Real-time Raytracing with Vulkan"
+    url: "/CS599"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 
 
 {% include feature_row id="intro" type="center" %}
 
+{% include feature_row id = "Gam400" type = "left" %}
 
+{% include feature_row id="CS300350" type="right" %}
 
-<a name="designs"></a>
-{% include feature_row id = "feature_row" type = "left" %}
+{% include feature_row id="Gam250" type="left" %}
 
+{% include feature_row id="Gam300" type="right" %}
 
+{% include feature_row id="CS500" type="left" %}
 
-<a name="process"></a>
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="CS599" type="right" %}

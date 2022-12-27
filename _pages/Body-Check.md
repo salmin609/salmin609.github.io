@@ -17,7 +17,6 @@ feature_row3:
     excerpt: "GAM250 Project"
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XRJpCyVH-ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% include feature_row id="feature_row1" type="left" %}
 
@@ -25,3 +24,4 @@ feature_row3:
 
 {% include feature_row id="feature_row3" type="center" %}
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XRJpCyVH-ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
