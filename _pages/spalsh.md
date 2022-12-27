@@ -37,13 +37,13 @@ Gam250:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 Gam300:
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam300DisplayImg.png?raw=true
     width : "2000"
     height : "500"
     alt: ""
     title: "GAM300+ Project"
     excerpt: "This space for GAM300+ Project"
-    url: ""
+    url: "/GAM300"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 CS300350:
