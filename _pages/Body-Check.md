@@ -7,7 +7,7 @@ feature_row1:
   - image_path: BodyCheck_title.JPG
     alt: ""
     title: "BodyCheck"
-    excerpt: "My teams make 2D Game called BodyCheck for Gam250 final project. It takes 2 semester to finish, 1 for make custom engine using FMOD, OpenGL, another for making game"
+    excerpt: "BodyCheck is top-down 2D multiplayer combat game. Maximum 4 local players in an ice rink arena, player must gain speed and rush into opponents. Last man standing wins the game."
 feature_row2:
   - image_path: BodyCheck_2.jpg
   - image_path: BodyCheck_3.jpg
