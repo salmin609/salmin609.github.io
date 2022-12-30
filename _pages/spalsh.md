@@ -1,20 +1,18 @@
 ---
-
-
-title: "Kim sangmin"
+title: "Ryan Kim"
 layout: splash
 permalink: /
 date: 2016-07-26T13:38:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: https://github.com/salmin609/salmin609.github.io/blob/master/images/jam.PNG?raw=true
+  overlay_image: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
   cta_label:
   cta_url:
   caption:
 excerpt: "Digipen & Kmu undergraduate student"
 intro:
-  - excerpt: "As majoring in RTIS, I'm interested in programming game, build engine, graphic stuff"
+  - excerpt: ""
 Gam400:
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
     width : "2000"
@@ -84,11 +82,11 @@ CS599:
 
 {% include feature_row id = "Gam400" type = "left" %}
 
-{% include feature_row id="CS300350" type="right" %}
+{% include feature_row id="Gam300" type="right" %}
 
 {% include feature_row id="Gam250" type="left" %}
 
-{% include feature_row id="Gam300" type="right" %}
+{% include feature_row id="CS300350" type="right" %}
 
 {% include feature_row id="CS500" type="left" %}
 
