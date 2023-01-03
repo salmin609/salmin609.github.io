@@ -74,6 +74,17 @@ CS599:
     url: "/CS599"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+CS380:
+    - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/399_4.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "CS380 Artificial Intelligence for games"
+    excerpt: "Wide range of concepts and practical algorithms commonly used to solve game AI problems"
+    url: "/CS380"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
 ---
 
 
