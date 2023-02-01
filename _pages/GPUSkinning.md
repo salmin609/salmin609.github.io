@@ -76,6 +76,11 @@ GetParentMatrix:
   Then, we need to get parent matrix of this node, we pass hierarchical order to GPU. \n\n
   Read parent transformation in that order, and accumulate to current node transformation"
 
+SetFinalMatrix:
+  - excerpt: "**Out Final Matrix** \n\n
+  Almost done! Just check if this node needs offset calculation and store to out buffer. \n\n
+  And apply this bone transformations data to each verex"
+
 Term:
   - title: ""
 ---
@@ -135,3 +140,13 @@ Term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuInterpolation3.png?raw=true" width = "800">
 </div>
 {% include feature_row id="GetParentMatrix" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuSkinning4.png?raw=true" width = "800">
+</div>
+{% include feature_row id="SetFinalMatrix" type="center" %}
+
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuSkinning4.png?raw=true" width = "800">
+</div>
