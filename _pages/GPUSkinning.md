@@ -35,7 +35,7 @@ SkeletalAnimationExplain3:
     **Texture Coordinate** : Texture Coordinates \n\n
     **Normal** : Normal Direction \n\n
     **BoneID 0~3** : Indices of Affecting Bones \n\n
-    **Weight 0~3** : How much affected \n\n
+    **Weight 0~3** : Affection Strength \n\n
     With these datas, we can **Interpolate** position of each vertices per time frame. \n\n
     .Anim file included frame data, which means how bones moving in several frames, we need to interpolate vertex position by bone's transformation data"
 
