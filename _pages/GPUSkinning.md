@@ -62,7 +62,7 @@ GPUSkinning2:
 
 GPUSkinning3:
   - excerpt: "We need to put **all animation datas** like, All NodeTransforms, Hierarchical Orders of Nodes, translation keys, scaling keys, rotation keys, offset matrices in order to get proper transformation. \n\n
-  "
+  **First**, we need to get node transform, if it is animated node, it needs interpolation else, use default node's transformation"
 
 
 ---
@@ -104,3 +104,7 @@ GPUSkinning3:
 {% include feature_row id="GPUSkinning2" type="Center" %}
 
 {% include feature_row id="GPUSkinning3" type="Center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/InterpolationGPU.png?raw=true" width = "600">
+</div>
