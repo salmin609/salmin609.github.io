@@ -50,13 +50,19 @@ InterpolationExplain2:
   Using this transformation, we can get animation object!"
 
 GPUSkinning1:
-  - title: "GPU Skinning#1"
+  - title: "#3 GPU Skinning"
     excerpt: "Skeletal Animation implemented, but done in CPU, for drawing massive animating objects, it's too slow. \n\n 
-    Because transformation datas stored hierarchically"
+    Because transformation datas stored hierarchically like our body\n\n
+    **Head** -> **Neck** -> **Spine** -> **Pelvis** ..."
 
 GPUSkinning2:
-  - excerpt: "Skeletal Animation implemented, but done in CPU, for drawing massive animating objects, it's too slow. \n\n 
-    Because transformation datas stored hierarchically."
+  - excerpt: "Like this example, for getting right finger's transformation data, we need to compute & accumulate transformation in this order \n\n
+   **Right Finger Transformation** * **Arm Right Transformation** * **Uparm Right Transformation** * **Neck Transformation** * **Head transformation** \n\n
+   And this interpolation & multiplication costs us a lot, so I moved this calculations to GPU"
+
+GPUSkinning3:
+  - excerpt: "We need to put **all animation datas** like, All NodeTransforms, Hierarchical Orders of Nodes, translation keys, scaling keys, rotation keys, offset matrices in order to get proper transformation. \n\n
+  "
 
 
 ---
@@ -88,3 +94,13 @@ GPUSkinning2:
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Skinning.gif?raw=true" width = "400">
 </div>
+
+{% include feature_row id="GPUSkinning1" type="Center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuSkinningExplain.png?raw=true" width = "400">
+</div>
+
+{% include feature_row id="GPUSkinning2" type="Center" %}
+
+{% include feature_row id="GPUSkinning3" type="Center" %}
