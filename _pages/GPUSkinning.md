@@ -71,6 +71,11 @@ InterpolationTitle:
   Every frame have timestamp, we can get interpolated time value between 2 frames timestamp. 
   And use this interpolated timestamp, we can interpolate between **translation, rotation, scaling** factors"
 
+GetParentMatrix:
+  - excerpt: "**Get Parent Matrix** \n\n
+  Then, we need to get parent matrix of this node, we pass hierarchical order to GPU. \n\n
+  Read parent transformation in that order, and accumulate to current node transformation"
+
 Term:
   - title: ""
 ---
@@ -124,3 +129,9 @@ Term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/GPUInterpolation2.png?raw=true" width = "800">
 </div>
 {% include feature_row id="InterpolationTitle" type="center" %}
+
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuInterpolation3.png?raw=true" width = "800">
+</div>
+{% include feature_row id="GetParentMatrix" type="center" %}
