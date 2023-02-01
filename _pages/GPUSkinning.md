@@ -64,47 +64,63 @@ GPUSkinning3:
   - excerpt: "We need to put **all animation datas** like, All NodeTransforms, Hierarchical Orders of Nodes, translation keys, scaling keys, rotation keys, offset matrices in order to get proper transformation. \n\n
   **First**, we need to get node transform, if it is animated node, it needs interpolation else, use default node's transformation"
 
+GetNodeTransformTitle:
+  - excerpt: "**Get Node Transform**"
+InterpolationTitle:
+  - excerpt: "**Interpolation** \n\n
+  Every frame have timestamp, we can get interpolated time value between 2 frames timestamp. 
+  And use this interpolated timestamp, we can interpolate between **translation, rotation, scaling** factors"
 
+Term:
+  - title: ""
 ---
 
-{% include feature_row id="Title" type="Center" %}
+{% include feature_row id="Title" type="center" %}
 
-{% include feature_row id="SkeletalAnimationExplain1" type="Center" %}
+{% include feature_row id="SkeletalAnimationExplain1" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/assimpClasses.jpg?raw=true" width = "500">
 </div>
 
-{% include feature_row id="SkeletalAnimationExplain2" type="Center" %}
+{% include feature_row id="SkeletalAnimationExplain2" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/vertex.jpg?raw=true" width = "200">
 </div>
 
-{% include feature_row id="SkeletalAnimationExplain3" type="Center" %}
+{% include feature_row id="SkeletalAnimationExplain3" type="center" %}
 
-{% include feature_row id="InterpolationExplain1" type="Center" %}
+{% include feature_row id="InterpolationExplain1" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/interpolationExample1.png?raw=true" width = "800">
 </div>
 
-{% include feature_row id="InterpolationExplain2" type="Center" %}
+{% include feature_row id="InterpolationExplain2" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Skinning.gif?raw=true" width = "400">
 </div>
 
-{% include feature_row id="GPUSkinning1" type="Center" %}
+{% include feature_row id="GPUSkinning1" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuSkinningExplain.png?raw=true" width = "400">
 </div>
 
-{% include feature_row id="GPUSkinning2" type="Center" %}
+{% include feature_row id="GPUSkinning2" type="center" %}
 
-{% include feature_row id="GPUSkinning3" type="Center" %}
+{% include feature_row id="GPUSkinning3" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/InterpolationGPU.png?raw=true" width = "600">
 </div>
+
+{% include feature_row id="GetNodeTransformTitle" type="center" %}
+
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/GPUInterpolation2.png?raw=true" width = "800">
+</div>
+{% include feature_row id="InterpolationTitle" type="center" %}
