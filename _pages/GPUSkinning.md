@@ -19,7 +19,7 @@ Title:
     excerpt: ""
 SkeletalAnimationExplain1:
   - image_path:
-    title: "#1 Skeletal Animation"
+    title: "#1 Load Skeletal Animation File"
     excerpt: "We need to implement **Skeletal Animation** first. \n\n
     First, load .anim file with Assimp. If this done correctly, we can get data structure like this"
 
@@ -28,6 +28,26 @@ SkeletalAnimationExplain2:
     excerpt: "As we get this data, we need to parse this datas into structure. \n\n
     Each vertex affects by multiple bones with weighted factor, we need to specify those datas."
 
+SkeletalAnimationExplain3:
+  - image_path:
+    excerpt: "This is **Animation Vertex Data** \n\n
+    **Position** : 3D Position \n\n
+    **Texture Coordinate** : Texture Coordinates \n\n
+    **Normal** : Normal Direction \n\n
+    **BoneID 0~3** : Indices of Affecting Bones \n\n
+    **Weight 0~3** : How much affected \n\n
+    With these datas, we can **Interpolate** position of each vertices per time frame. \n\n
+    .Anim file included frame data, which means how bones moving in several frames, we need to interpolate vertex position by bone's transformation data"
+
+InterpolationExplain1:
+  - title: "#2 Interpolation"
+    excerpt: "Each animation frame store every bone's transformation datas by time factor. We should get transformation matrix by putting time value.\n\n
+    Using **Linear Interpolation** for translation / scaling factors, **Spherical Linear Interpolation** for rotation factor.\n\n
+    Put these transformation datas together into 4x4 matrix, now we have bone transformation."
+
+InterpolationExplain2:
+  - excerpt: "We stored which bone affecting which vertex, and how much they affected, using **Bone transformation**, we can calculate vertex's position by time. \n\n
+  Using this transformation, we can get animation object!"
 
 
 ---
@@ -41,5 +61,16 @@ SkeletalAnimationExplain2:
 </div>
 
 {% include feature_row id="SkeletalAnimationExplain2" type="Center" %}
-<!-- {% include feature_row id="AssimpDataStructure" type="Center"%} -->
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/vertex.jpg?raw=true" width = "200">
+</div>
+
+{% include feature_row id="SkeletalAnimationExplain3" type="Center" %}
+
+{% include feature_row id="InterpolationExplain1" type="Center" %}
+{% include feature_row id="InterpolationExplain2" type="Center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Skinning.gif?raw=true" width = "400">
+</div>
