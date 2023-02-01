@@ -49,6 +49,15 @@ InterpolationExplain2:
   - excerpt: "We stored which bone affecting which vertex, and how much they affected, using **Bone transformation**, we can calculate vertex's position by time. \n\n
   Using this transformation, we can get animation object!"
 
+GPUSkinning1:
+  - title: "GPU Skinning#1"
+    excerpt: "Skeletal Animation implemented, but done in CPU, for drawing massive animating objects, it's too slow. \n\n 
+    Because transformation datas stored hierarchically"
+
+GPUSkinning2:
+  - excerpt: "Skeletal Animation implemented, but done in CPU, for drawing massive animating objects, it's too slow. \n\n 
+    Because transformation datas stored hierarchically."
+
 
 ---
 
@@ -69,6 +78,11 @@ InterpolationExplain2:
 {% include feature_row id="SkeletalAnimationExplain3" type="Center" %}
 
 {% include feature_row id="InterpolationExplain1" type="Center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/interpolationExample1.png?raw=true" width = "800">
+</div>
+
 {% include feature_row id="InterpolationExplain2" type="Center" %}
 
 <div style="text-align: center">
