@@ -82,8 +82,11 @@ SetFinalMatrix:
   And apply this bone transformations data to each verex"
 
 Final1:
-  - excerpt: "**Awesome!** \n\n
-  But purpose of this technique is to simulate many animations!"
+  - excerpt: "**Looks Good!** \n\n
+  But purpose of this technique is to simulate many animations! Let's draw several kinds of animations!"
+
+Final2:
+  - excerpt: "**Awesome!**"
 
 Term:
   - title: ""
@@ -155,3 +158,8 @@ Term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/Animation3.gif?raw=true" width = "800">
 </div>
 {% include feature_row id="Final1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/Animation4.gif?raw=true" width = "800">
+</div>
+{% include feature_row id="Final2" type="center" %}
