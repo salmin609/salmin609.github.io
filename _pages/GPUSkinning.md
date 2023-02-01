@@ -81,6 +81,10 @@ SetFinalMatrix:
   Almost done! Just check if this node needs offset calculation and store to out buffer. \n\n
   And apply this bone transformations data to each verex"
 
+Final1:
+  - excerpt: "**Awesome!** \n\n
+  But purpose of this technique is to simulate many animations!"
+
 Term:
   - title: ""
 ---
@@ -148,5 +152,6 @@ Term:
 
 
 <div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/gpuSkinning4.png?raw=true" width = "800">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/Animation3.gif?raw=true" width = "800">
 </div>
+{% include feature_row id="Final1" type="center" %}
