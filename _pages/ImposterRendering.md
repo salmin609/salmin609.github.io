@@ -56,7 +56,7 @@ DiscardExplain:
   We need only character part, we need to discard background color."
 
 DiscardExplain2:
-  - excerpt: "So before capturing, "
+  - excerpt: "So check the texture Color's alpha value, if it's smaller than normal value, discard it"
 
 ---
 
@@ -82,3 +82,10 @@ DiscardExplain2:
 </div>
 
 {% include feature_row id="DiscardExplain" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Imposter/Discard.png?raw=true" width = "600">
+</div>
+{% include feature_row id="DiscardExplain2" type="center" %}
+
+
