@@ -20,8 +20,39 @@ Header:
 
 HowThisWork:
   - title: "How this work?"    
-    excerpt: "First, we need to capture animating object to **Frame Buffer**."
+    excerpt: "The **Overall Idea** is capture animating object and use that capture as texture of quad which always facing towards camera. \n\n
+    First, we need to capture animating object to **Frame Buffer** in every frames."
 
+CapturingExplain:
+  - excerpt: "**Texture Example** \n\n
+  **Capturing** could get with these following steps. \n\n
+  **1** : Initialize camera which placed in front of animating object, and facing toward object. \n\n
+  **2** : Bind frame buffer which we want capturing. \n\n
+  **3** : Render object with initialized camera. \n\n
+  **4** : Unbound the frame buffer (Set to default frame buffer). \n\n"
+
+QuadExplain:
+  - title: "Implement Quad"
+    excerpt: "We need to make quad so we can apply our textures. \n\n
+    Making quad is very easy, just initialize with vertices like, \n\n
+    **(-1, -1, 0)** ,**(-1, 1, 0)** ,**(1, 1, 0)** ,**(1, -1, 0)** \n\n
+    And multiply those with object's world matrix"
+
+QuadRotating:
+  - excerpt: "Now we have quad, but, it's just a quad, it's not a 3D object, it's just 2D object. \n\n
+  People might notice this as they move camera. \n\n
+  So, we need to make this quad **Always** facing toward camera. \n\n
+  It's very easy, since every object's rotation was setted via multiplication of Camera Matrix and Model Matrix \n\n
+  All we need to do is initialize rotation parts as identity matrix."
 ---
 
 {% include feature_row id="Header" type="center" %}
+{% include feature_row id="HowThisWork" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Imposter/Texture1.png?raw=true" width = "400">
+</div>
+
+{% include feature_row id="CapturingExplain" type="center" %}
+{% include feature_row id="QuadExplain" type="center" %}
+{% include feature_row id="QuadRotating" type="center" %}
