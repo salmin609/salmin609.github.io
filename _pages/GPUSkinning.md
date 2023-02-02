@@ -86,7 +86,7 @@ Final1:
   But purpose of this technique is to simulate many animations! Let's draw several kinds of animations!"
 
 Final2:
-  - excerpt: "**Awesome!**"
+  - excerpt: "**Good!**"
 
 Term:
   - title: ""
