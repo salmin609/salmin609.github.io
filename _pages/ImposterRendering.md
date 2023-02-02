@@ -58,6 +58,14 @@ DiscardExplain:
 DiscardExplain2:
   - excerpt: "So check the texture Color's alpha value, if it's smaller than normal value, discard it"
 
+Final1:
+  - excerpt: "**Good!**"
+
+Extra:
+  - title: "Extra Work"
+    excerpt: "Imposter Rendering is done, but when rendering quad, passing quad vertices & texture coordinates is take costs a lot, cause we have to render 10k+ quads.\n\n
+    What we could do is utilize geometry shader, we could pass position data of the billboard, and enlarge that point into quads. \n\n
+    Which can done just one draw call **glDrawArrays(GL_POINTS, 0, 1)**"
 ---
 
 {% include feature_row id="Header" type="center" %}
@@ -89,3 +97,9 @@ DiscardExplain2:
 {% include feature_row id="DiscardExplain2" type="center" %}
 
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Imposter/Animation4.gif?raw=true" width = "600">
+</div>
+{% include feature_row id="Final1" type="center" %}
+
+{% include feature_row id="Extra" type="center" %}
