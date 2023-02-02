@@ -16,8 +16,13 @@ Title:
     So, we need to verify whether if this object is inside of camera view frustum, if not, we don't have to update that object"
 
 Explain1:
-  - excerpt: "We need to build frustum first. \n\n
-  "
+  - excerpt: "We need to build frustum first."
+
+FaceBuild:
+  - excerpt: "We need to build 6 faces based on camera position"
+
+Explain2:
+  - excerpt: "We will use sphereical bounding volume for object, which have it's own radius and center values."
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -26,3 +31,14 @@ Explain1:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/FrustumCulling/VisualCameraFrustum.png?raw=true" width = "400">
 </div>
 {% include feature_row id="Explain1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/FrustumCulling/BuildFrustum.png?raw=true" width = "600">
+</div>
+{% include feature_row id="FaceBuild" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/FrustumCulling/BuildFrustum.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Explain2" type="center" %}
