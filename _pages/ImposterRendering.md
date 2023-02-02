@@ -44,6 +44,20 @@ QuadRotating:
   So, we need to make this quad **Always** facing toward camera. \n\n
   It's very easy, since every object's rotation was setted via multiplication of Camera Matrix and Model Matrix \n\n
   All we need to do is initialize rotation parts as identity matrix."
+
+QuadRotationPart:
+  - excerpt: "**Initialize Rotation part as Identity matrix** \n\n
+  Almost done! All we need to do is just texturing."
+
+
+DiscardExplain:
+  - excerpt: "Rotating successfully done, but something's wrong \n\n
+  When capturing to framebuffer, the background color also captured. \n\n
+  We need only character part, we need to discard background color."
+
+DiscardExplain2:
+  - excerpt: "So before capturing, "
+
 ---
 
 {% include feature_row id="Header" type="center" %}
@@ -56,3 +70,15 @@ QuadRotating:
 {% include feature_row id="CapturingExplain" type="center" %}
 {% include feature_row id="QuadExplain" type="center" %}
 {% include feature_row id="QuadRotating" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Imposter/AlwaysFacingTowardCamera.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="QuadRotationPart" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Imposter/BeforeDiscard.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="DiscardExplain" type="center" %}
