@@ -15,7 +15,8 @@ header:
 Explain:
   - title: "GAM200 BodyCheck"
     excerpt: "**BodyCheck** is top-down 2D multiplayer combat game. Maximum 4 local players in an ice rink arena, player must gain speed and rush into opponents. Last man standing wins the game. \n\n
-    **1 year project [GAM200 ~ GAM250]** made with **2D custom engine usign OpenGL**. **5 team members**.\n\n
+    **1 year project [GAM200 ~ GAM250]** made with **2D custom engine usign OpenGL**. \n\n
+    **5 team members**.\n\n
     I work as **Tech Director** of this team.\n\n
     Implement **Message System**, **Various Art Works**, **2D Animations**, **Weapon System**."
 
