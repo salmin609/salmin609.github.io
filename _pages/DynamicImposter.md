@@ -31,7 +31,9 @@ Explain2:
     "
 
 Explain3:
-  - excerpt: "I utilized compute shader to calculate those, and return which camera index that the object should use."
+  - excerpt: "I utilized compute shader to calculate those, and return which camera index that the object should use.\n\n
+  For the angle compute, we can get with dot product, since result of dot product contains cosine angle value, we can get angle by using arc cosine function.\n\n
+  "
 term:
   - excerpt: ""
 ---
