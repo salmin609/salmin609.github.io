@@ -53,7 +53,12 @@ Explain7:
     If not, object is right side of camera."
 
 Explain8:
-  - excerpt: ""
+  - excerpt: "**Looks good!**"
+
+Youtube:
+  - btn_label: "Youtube"
+    url: "https://youtu.be/vAKZAVt7lh0"
+
 
 term:
   - excerpt: ""
@@ -100,3 +105,12 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/DynamicImposter/4.png?raw=true" width = "800">
 </div>
 {% include feature_row id="Explain7" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/DynamicImposter/result.gif?raw=true" width = "800">
+</div>
+
+{% include feature_row id="Explain8" type="center" %}
+
+{% include feature_row id="Youtube" type="center" %}
+
