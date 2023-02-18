@@ -86,3 +86,7 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/7.png?raw=true" width = "1000">
 </div>
 {% include feature_row id="AllyCollision2" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/7.png?raw=true" width = "1000">
+</div>
