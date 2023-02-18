@@ -47,6 +47,8 @@ AllyCollision3:
   - excerpt: "If collided with ally, check ally animation status, if it isn't running, change current object's state to idle."
 Move:
   - excerpt: "If both collision checks failed, change to run animation and move object's position."
+MoveEx:
+  - excerpt: "Move Toward function."
 term:
   - excerpt: ""
 ---
@@ -100,3 +102,7 @@ term:
 </div>
 {% include feature_row id="Move" type="center" %}
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/11.png?raw=true" width = "600">
+</div>
+{% include feature_row id="MoveEx" type="center" %}
