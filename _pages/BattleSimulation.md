@@ -72,8 +72,18 @@ SetAnimation:
 SetFrameBufferAngle:
   - excerpt: "Set current using frame buffer with given **animation state index**, **frame buffer angle index**"
 
+BOrender:
+  - excerpt: "Using current frame buffer's texture, drawing billboard object."
+
+Final:
+  - excerpt: "Looks Good!"
+
 term:
   - excerpt: ""
+
+Youtube:
+  - btn_label: "Youtube"
+    url: "https://youtu.be/7YjG8OUKh24"
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -161,3 +171,15 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/15.png?raw=true" width = "600">
 </div>
 {% include feature_row id="SetFrameBufferAngle" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/16.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="BOrender" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/result4.gif?raw=true" width = "1000">
+</div>
+{% include feature_row id="Final" type="center" %}
+
+{% include feature_row id="Youtube" type="center" %}
