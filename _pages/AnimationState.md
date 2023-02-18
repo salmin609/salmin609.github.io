@@ -6,9 +6,7 @@ date: 2016-07-28T15:38:00
 
 Title:
   - title: "Animation State"
-    excerpt: "Managing animation states is important in battle simulations.\n\n
-    
-    \n\n"
+    excerpt: "Managing animation states is important in battle simulations.\n\n"
 
 MovingEx:
   - excerpt: "Like, idle to running status when start moving."
@@ -16,8 +14,10 @@ AttackingEx:
   - excerpt: "Or, changing from moving animation to attack animation if collided with enemy object."
 
 Explain1:
-  - excerpt: "So, we need to manage those animations properly. \n\n
-    First, we need to load various animations first."
+  - excerpt: "So, we need to manage those animations properly.\n\n
+    First, we need to load and store various animations first.\n\n
+    Since I using 5 kinds of animations, so I created 5 vectors per animation model.\n\n
+    The Idle animations vector, Attack animations vector, Pain animations vector, Death animations vector, Running animations vector."
 
 Youtube:
   - btn_label: "Youtube"
