@@ -24,6 +24,12 @@ Explain2:
     Like, bone transformations data, interpolation shader...\n\n
     Now, we need to give random animation indices to billboard objects in order to set different animations to each object.\n\n"
 
+StateEx:
+  - excerpt: "**Animation State enum.**"
+
+SettingEx:
+  - excerpt: "**Random animation index setting.**"
+
 Youtube:
   - btn_label: "Youtube"
     url: "https://youtu.be/vAKZAVt7lh0"
@@ -50,4 +56,15 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/animState.png?raw=true" width = "800">
 </div>
 {% include feature_row id="Explain2" type="center" %}
+
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/state.png?raw=true" width = "400">
+</div>
+{% include feature_row id="StateEx" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/setting.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="SettingEx" type="center" %}
 
