@@ -16,8 +16,13 @@ AttackingEx:
 Explain1:
   - excerpt: "So, we need to manage those animations properly.\n\n
     First, we need to load and store various animations first.\n\n
-    Since I using 5 kinds of animations, so I created 5 vectors per animation model.\n\n
-    The Idle animations vector, Attack animations vector, Pain animations vector, Death animations vector, Running animations vector."
+    Since I using 5 kinds of animations, so I created 5 vectors per animation model."
+
+Explain2:
+  - excerpt: "The vectors for Idle animations, Attack animations, Pain animations, Death animations, Running animations.\n\n
+    These vectors will contain all datas for simulate animations.\n\n
+    Like, bone transformations data, interpolation shader...\n\n
+    Now, we need to give random animation indices to billboard objects in order to set different animations to each object.\n\n"
 
 Youtube:
   - btn_label: "Youtube"
@@ -40,3 +45,9 @@ term:
 {% include feature_row id="AttackingEx" type="center" %}
 
 {% include feature_row id="Explain1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/animState.png?raw=true" width = "800">
+</div>
+{% include feature_row id="Explain2" type="center" %}
+
