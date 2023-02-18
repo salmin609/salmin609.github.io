@@ -32,7 +32,10 @@ EnemyCollision1:
     
 EnemyCollision2:
   - excerpt: "We can get current object's poisition with **objsPoses[index]**, and check current object's side with using herdIndex, iterate every objects in other side, and check whether collided or not."
-    
+
+AttackDone:
+  - excerpt: "**Attack Done!**"
+
 CollisionEx:
   - excerpt: "**Collision check function.**"
 
@@ -49,6 +52,9 @@ Move:
   - excerpt: "If both collision checks failed, change to run animation and move object's position."
 MoveEx:
   - excerpt: "Move Toward function."
+
+MoveDone:
+  - excerpt: "**Move Done!**"
 
 Setting1:
   - excerpt: "Now we setted our billboard object's animation states in buffer, we need to read them and apply to our object.\n\n
@@ -93,6 +99,12 @@ term:
 {% include feature_row id="EnemyCollision3" type="center" %}
 
 <div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/Attack.gif?raw=true" width = "600">
+</div>
+{% include feature_row id="AttackDone" type="center" %}
+{% include feature_row id="term" type="center" %}
+
+<div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/6.png?raw=true" width = "1000">
 </div>
 {% include feature_row id="AllyCollision1" type="center" %}
@@ -116,6 +128,11 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/11.png?raw=true" width = "600">
 </div>
 {% include feature_row id="MoveEx" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/Moving.gif?raw=true" width = "600">
+</div>
+{% include feature_row id="MoveDone" type="center" %}
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/12.png?raw=true" width = "1000">
