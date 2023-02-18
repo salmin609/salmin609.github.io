@@ -65,6 +65,10 @@ Setting1:
 Setting2:
   - excerpt: "Now we have **animation state index, angle index** \n\n
   So, we can set our billboard object's animation."
+
+SetAnimation:
+  - excerpt: "Set Animation Function, change **fbs (Animation)** if given state is different with previous state."
+
 term:
   - excerpt: ""
 ---
@@ -143,3 +147,9 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/13.png?raw=true" width = "1000">
 </div>
 {% include feature_row id="Setting2" type="center" %}
+
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/14.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="SetAnimation" type="center" %}
