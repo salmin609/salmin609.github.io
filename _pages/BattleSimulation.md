@@ -20,7 +20,16 @@ Indexing1:
   - excerpt: "Since we pass all of our billboard objects data at once and I manage those datas per **Herd**, we need to indexing these values to identify which object is in which herd.\n\n"
     
 
-  
+Indexing2:
+  - excerpt: "**HerdCount** : Total counts of herds\n\n
+  **Index** : current index of billboard object, which can be obtained with current invocation ID and work group size of compute shader.\n\n
+  **gl_GlobalInvocationID.x + gl_GlobalInvocationID.y * gl_NumWorkGroups.x * gl_WorkGroupSize.x;**\n\n
+  **HerdOffset** : offset indexes of herds in 1D array which passed by uniform values. Accumulation was done by count of each herd.\n\n
+  If current invocation index is greater than herd offset, means object is in that herd."
+
+EnemyCollision1:
+  - excerpt: "Now we know which object is in which herd, we can get whether collided or not with other object."
+    
 
 
 term:
@@ -34,3 +43,10 @@ term:
 </div>
 {% include feature_row id="Buffering" type="center" %}
 {% include feature_row id="Indexing1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/2.png?raw=true" width = "600">
+</div>
+{% include feature_row id="Indexing2" type="center" %}
+{% include feature_row id="EnemyCollision1" type="center" %}
+
