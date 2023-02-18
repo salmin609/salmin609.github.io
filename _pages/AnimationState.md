@@ -30,9 +30,16 @@ StateEx:
 SettingEx:
   - excerpt: "**Random animation index setting.**"
 
-Youtube:
-  - btn_label: "Youtube"
-    url: "https://youtu.be/vAKZAVt7lh0"
+UsingEx:
+  - excerpt: "**Use random index above, get random animation datas to desired state.**"
+
+Explain3:
+  - excerpt: "Now, animation states were on set, we need to simulate animations using this state.\n\n
+    Simulation gonna explained on **Battle Simulation** parts."
+
+BattleSimulationButton:
+  - btn_label: "Battle Simulation"
+    url: "/BattleSimulation"
 
 
 term:
@@ -68,3 +75,10 @@ term:
 </div>
 {% include feature_row id="SettingEx" type="center" %}
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/returnRandomAnim.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="UsingEx" type="center" %}
+
+{% include feature_row id="Explain3" type="center" %}
+{% include feature_row id="BattleSimulationButton" type="center" %}
