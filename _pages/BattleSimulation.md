@@ -43,7 +43,8 @@ AllyCollision1:
   - excerpt: "If not, we should check if object is collided with ally side objects."
 AllyCollision2:
   - excerpt: "Same as enemy collision check, but side should be same to check whether ally or not."
-
+AllyCollision3:
+  - excerpt: "If collided with ally, check ally animation status, if it isn't running, change current object's state to idle."
 term:
   - excerpt: ""
 ---
@@ -88,5 +89,7 @@ term:
 {% include feature_row id="AllyCollision2" type="center" %}
 
 <div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/7.png?raw=true" width = "1000">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/9.png?raw=true" width = "600">
 </div>
+{% include feature_row id="AllyCollision3" type="center" %}
+
