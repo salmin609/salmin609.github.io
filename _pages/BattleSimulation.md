@@ -30,6 +30,9 @@ Indexing2:
 EnemyCollision1:
   - excerpt: "Now we know which object is in which herd, we can get whether collided or not with other object."
     
+EnemyCollision2:
+  - excerpt: "We can get current object's poisition with **objsPoses[index]**, and check current object's side with using herdIndex, iterate every objects in other side, and check whether collided or not."
+    
 
 
 term:
@@ -50,3 +53,7 @@ term:
 {% include feature_row id="Indexing2" type="center" %}
 {% include feature_row id="EnemyCollision1" type="center" %}
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/3.png?raw=true" width = "600">
+</div>
+{% include feature_row id="EnemyCollision2" type="center" %}
