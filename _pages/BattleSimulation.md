@@ -33,7 +33,11 @@ EnemyCollision1:
 EnemyCollision2:
   - excerpt: "We can get current object's poisition with **objsPoses[index]**, and check current object's side with using herdIndex, iterate every objects in other side, and check whether collided or not."
     
+CollisionEx:
+  - excerpt: "**Collision check function.**"
 
+EnemyCollision3:
+  - excerpt: "If object collided with enemy object, change to attack state."
 
 term:
   - excerpt: ""
@@ -57,3 +61,8 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/3.png?raw=true" width = "600">
 </div>
 {% include feature_row id="EnemyCollision2" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/4.png?raw=true" width = "600">
+</div>
+{% include feature_row id="CollisionEx" type="center" %}
