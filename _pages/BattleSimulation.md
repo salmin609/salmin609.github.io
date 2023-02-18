@@ -39,6 +39,9 @@ CollisionEx:
 EnemyCollision3:
   - excerpt: "If object collided with enemy object, change to attack state."
 
+AllyCollision1:
+  - excerpt: "If not, we should check if object is collided with ally side objects."
+
 term:
   - excerpt: ""
 ---
@@ -71,3 +74,8 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/5.png?raw=true" width = "600">
 </div>
 {% include feature_row id="EnemyCollision3" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/6.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="AllyCollision1" type="center" %}
