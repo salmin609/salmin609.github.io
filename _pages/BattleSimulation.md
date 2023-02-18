@@ -49,6 +49,16 @@ Move:
   - excerpt: "If both collision checks failed, change to run animation and move object's position."
 MoveEx:
   - excerpt: "Move Toward function."
+
+Setting1:
+  - excerpt: "Now we setted our billboard object's animation states in buffer, we need to read them and apply to our object.\n\n
+  Use my buffer.hpp functions, \n\n
+  **GetBuffer(int storageIndex)** : Return buffer object which corresponding with storage index.\n\n
+  **GetData(void* data)** : Mapping buffer's data to *data pointer\n\n"
+
+Setting2:
+  - excerpt: "Now we have **animation state index, angle index** \n\n
+  So, we can set our billboard object's animation."
 term:
   - excerpt: ""
 ---
@@ -106,3 +116,13 @@ term:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/11.png?raw=true" width = "600">
 </div>
 {% include feature_row id="MoveEx" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/12.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="Setting1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/BattleSimulation/13.png?raw=true" width = "1000">
+</div>
+{% include feature_row id="Setting2" type="center" %}
