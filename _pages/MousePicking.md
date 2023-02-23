@@ -29,6 +29,12 @@ Explain5:
 Explain6:
   - excerpt: "If herd is selected, calculate mid point of herd and set direction toward position."
 
+Result:
+  - excerpt: "Done!"
+
+Youtube:
+  - btn_label: "Youtube"
+    url: "https://youtu.be/dRTcFXydcqg"
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -70,3 +76,9 @@ Explain6:
 
 {% include feature_row id="Explain6" type="center" %}
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/res.gif?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Result" type="center" %}
+{% include feature_row id="Youtube" type="center" %}
