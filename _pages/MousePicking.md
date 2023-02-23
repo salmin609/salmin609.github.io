@@ -24,7 +24,7 @@ Explain4:
 
 Explain5:
   - excerpt: "Then, check if the selected position is in herd's area.\n\n
-    I used simple AABB check."
+    I used **point vs AABB** check."
 
 Explain6:
   - excerpt: "If herd is selected, calculate mid point of herd and set direction toward position."
@@ -57,4 +57,16 @@ Explain6:
 
 {% include feature_row id="Explain4" type="center" %}
 
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/5.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Explain5" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/6.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Explain6" type="center" %}
 
