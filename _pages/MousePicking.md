@@ -20,11 +20,41 @@ Explain3:
   - excerpt: "Next, Get inverse of projection matrix to send clip coordinate to view coordinate."
 
 Explain4:
-  - excerpt: "Finally, get view-coordinate to world-coordinate matrix, by multiplying with this matrix, we can get direction toward clicked position."
+  - excerpt: "Finally, get view-coordinate to world-coordinate matrix, by multiplying with this matrix, we can get **direction** toward **clicked position**."
+
+Explain5:
+  - excerpt: "Then, check if the selected position is in herd's area.\n\n
+    I used simple AABB check."
+
+Explain6:
+  - excerpt: "If herd is selected, calculate mid point of herd and set direction toward position."
 
 ---
 
 {% include feature_row id="Title" type="center" %}
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/1.png?raw=true" width = "600">
+</div>
+
 {% include feature_row id="Explain1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/2.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Explain2" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/3.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Explain3" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/4.png?raw=true" width = "600">
+</div>
+
+{% include feature_row id="Explain4" type="center" %}
+
 
