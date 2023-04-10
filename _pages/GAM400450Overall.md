@@ -32,6 +32,16 @@ CameraCapturingExplain1:
     title: "#3 Initialize Camera"
     excerpt: "Now, we need to initialize cameras in 8 different angles."
 
+CameraCapturingExplain2:
+  - image_path:
+    title: "#4 Capture"
+    excerpt: "Capture object in different angles, store in framebuffer."
+
+BillboardExplain1:
+  - image_path:
+    title: "#5 Create Billboard"
+    excerpt: "Create Billboard object, simple quad object that always facing towards camera."
+
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -53,3 +63,11 @@ CameraCapturingExplain1:
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/InitCamera.jpg?raw=true" width = "800">
 </div>
+
+{% include feature_row id="CameraCapturingExplain2" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/CamCapturing.jpg?raw=true" width = "800">
+</div>
+
+{% include feature_row id="BillboardExplain1" type="center" %}
