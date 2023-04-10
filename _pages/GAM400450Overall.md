@@ -27,6 +27,11 @@ SkeletalAnimationExplain2:
     title: "#2 Apply Animation"
     excerpt: "Then, apply skeletal animation to this object."
 
+CameraCapturingExplain1:
+  - image_path:
+    title: "#3 Initialize Camera"
+    excerpt: "Now, we need to initialize cameras in 8 different angles."
+
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -41,4 +46,10 @@ SkeletalAnimationExplain2:
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SkeletalAft.gif?raw=true" width = "500">
+</div>
+
+{% include feature_row id="CameraCapturingExplain1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/InitCamera.jpg?raw=true" width = "800">
 </div>
