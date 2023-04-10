@@ -83,5 +83,5 @@ BillboardExplain2:
 
 {% include feature_row id="BillboardExplain2" type="center" %}
 <div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/BillboardQuad.png?raw=true" width = "800">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/BillboardTexturing.gif?raw=true" width = "800">
 </div>
