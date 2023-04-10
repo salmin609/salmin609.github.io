@@ -39,8 +39,13 @@ CameraCapturingExplain2:
 
 BillboardExplain1:
   - image_path:
-    title: "#5 Create Billboard"
-    excerpt: "Create Billboard object, simple quad object that always facing towards camera."
+    title: "#5 Generate Billboard Object"
+    excerpt: "Generate Billboard object, simple quad object that always facing towards camera."
+
+BillboardExplain2:
+  - image_path:
+    title: "#6 Apply Texture"
+    excerpt: "Apply captures on the billboard object."
 
 ---
 
@@ -71,3 +76,12 @@ BillboardExplain1:
 </div>
 
 {% include feature_row id="BillboardExplain1" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/BillboardQuad.png?raw=true" width = "800">
+</div>
+
+{% include feature_row id="BillboardExplain2" type="center" %}
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/BillboardQuad.png?raw=true" width = "800">
+</div>
