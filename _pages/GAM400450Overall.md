@@ -22,6 +22,11 @@ SkeletalAnimationExplain1:
     title: "#1 Load Model"
     excerpt: "Load Model, I used Assimp library."
 
+SkeletalAnimationExplain2:
+  - image_path:
+    title: "#2 Apply Animation"
+    excerpt: "Then, apply skeletal animation to this object."
+
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -29,5 +34,11 @@ SkeletalAnimationExplain1:
 {% include feature_row id="SkeletalAnimationExplain1" type="center" %}
 
 <div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/GPUSkinning/assimpClasses.jpg?raw=true" width = "500">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SkeletalBef.png?raw=true" width = "500">
+</div>
+
+{% include feature_row id="SkeletalAnimationExplain2" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SkeletalAft.gif?raw=true" width = "500">
 </div>
