@@ -52,6 +52,31 @@ BillboardDone:
     title: "Imposter Rendering Done!"
     excerpt: ""
 
+SimulationStepExplain1:
+  - image_path:
+    title: "#7 Simulation Steps"
+    excerpt: ""    
+
+AngleComputation:
+  - title: "Angle Computation"
+    excerpt: "Calculate which camera's capture should be used by calculating angle between camera & object."
+
+CollisionCheck:
+  - title: "Collision Check"
+    excerpt: "Determine whether object was collided with enemy or ally objects."
+
+Move:
+  - title: "Move"
+    excerpt: "If object was not collided, move it."
+
+Attack:
+  - title: "Attack"
+    excerpt: "If object was collided with enemy object, attack."
+
+AnimationStateChange:
+  - title: "Animation State Change"
+    excerpt: "Determine object's animation state by it's current collision state."
+
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -96,3 +121,9 @@ BillboardDone:
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Billboards.gif?raw=true" width = "800">
 </div>
+
+{% include feature_row id="SimulationStepExplain1" type="center" %}
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SimulationSteps.jpg?raw=true" width = "800">
+</div>
+
