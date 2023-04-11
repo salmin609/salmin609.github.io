@@ -63,8 +63,7 @@ AngleComputation:
 
 CollisionCheck:
   - title: "Collision Check"
-    excerpt: "Determine whether object was collided with enemy or ally objects.\n\n
-              Following is primary buffers for computation."
+    excerpt: "Determine whether object was collided with enemy or ally objects."
 
 Move:
   - title: "Move"
@@ -135,5 +134,5 @@ AnimationStateChange:
 
 {% include feature_row id="CollisionCheck" type="center" %}
 <div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/PrimaryBuffers.jpg?raw=true" width = "800">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/CollisionCheck.jpg?raw=true" width = "800">
 </div>
