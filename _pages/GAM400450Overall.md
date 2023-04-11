@@ -127,3 +127,7 @@ AnimationStateChange:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SimulationSteps.jpg?raw=true" width = "800">
 </div>
 
+{% include feature_row id="AngleComputation" type="center" %}
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/AngleCompute.jpg?raw=true" width = "800">
+</div>
