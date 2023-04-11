@@ -136,3 +136,8 @@ AnimationStateChange:
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/CollisionCheck.jpg?raw=true" width = "800">
 </div>
+
+{% include feature_row id="Move" type="center" %}
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Move.jpg?raw=true" width = "800">
+</div>
