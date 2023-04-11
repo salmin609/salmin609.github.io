@@ -19,12 +19,12 @@ Title:
     excerpt: ""
 SkeletalAnimationExplain1:
   - image_path:
-    title: "#1 Load Model"
+    title: "#1 Imposter Rendering"
     excerpt: "Load Model, I used Assimp library."
 
 SkeletalAnimationExplain2:
   - image_path:
-    title: "#2 Apply Animation"
+    title: "#2 Skeletal Animation"
     excerpt: "Then, apply skeletal animation to this object."
 
 CameraCapturingExplain1:
@@ -77,11 +77,52 @@ AnimationStateChange:
   - title: "Animation State Change"
     excerpt: "Determine object's animation state by it's current collision state."
 
+ToBattleSims:
+  - btn_label: "BattleSimulation"
+    url: "/BattleSimulation"
+
+ToAnimStateChange:
+  - btn_label: "AnimStateChange"
+    url: "/AnimationState"
+
+ToDynamicImposter:
+  - title: "Imposter Rendering"
+    url: "/ImposterRendering"
+  - title: "Dynamic Imposter"
+    url: "/DynamicImposter"
+  - title: "GPU Skinning"
+    url: "/GPUSkinning"
+
+BattleSimsYoutube:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Wait.gif?raw=true
+    width : "100"
+    height : "100"
+    alt: ""
+    title: "Battle Simulation WIP"
+    btn_label: "Youtube"
+    url: "https://youtu.be/j2rOx0Lu0i4"
+
+MassiveAnimationRendering:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
+    width : "100"
+    height : "100"
+    alt: ""
+    title: "Massive Animating Rendering"
+    excerpt: "Massive animating object rendering, couple acceleration methods used in this project.
+    Gpu Skinning, Imposter rendering, Frustum culling"
+    btn_label: "Youtube"
+    url: "https://www.youtube.com/watch?v=4iHiXhI4eGU"
+
+Term:
+  - excerpt: ""
+
+
 ---
 
 {% include feature_row id="Title" type="center" %}
-
+{% include feature_row id="ToDynamicImposter"%}
 {% include feature_row id="SkeletalAnimationExplain1" type="center" %}
+
 
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SkeletalBef.png?raw=true" width = "500">
@@ -122,10 +163,16 @@ AnimationStateChange:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Billboards.gif?raw=true" width = "800">
 </div>
 
+
 {% include feature_row id="SimulationStepExplain1" type="center" %}
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/SimulationSteps.jpg?raw=true" width = "800">
 </div>
+
+{% include feature_row id="Term" type="center" %}
+
+{% include feature_row id="ToBattleSims" type="center" %}
+
 
 {% include feature_row id="AngleComputation" type="center" %}
 <div style="text-align: center">
@@ -138,21 +185,15 @@ AnimationStateChange:
 </div>
 
 {% include feature_row id="Move" type="center" %}
+
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Move.jpg?raw=true" width = "800">
 </div>
 
-<div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/res.gif?raw=true" width = "800">
-</div>
 
 {% include feature_row id="Attack" type="center" %}
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Attack.jpg?raw=true" width = "800">
-</div>
-
-<div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/Attack.gif?raw=true" width = "800">
 </div>
 
 {% include feature_row id="AnimationStateChange" type="center" %}
@@ -160,7 +201,9 @@ AnimationStateChange:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/AnimationChange.jpg?raw=true" width = "800">
 </div>
 
+{% include feature_row id="Term" type="center" %}
 
-<div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/result4.gif?raw=true" width = "800">
-</div>
+{% include feature_row id="ToAnimStateChange" type="center" %}
+
+{% include feature_row id="MassiveAnimationRendering" type="center" %}
+{% include feature_row id="BattleSimsYoutube" type="center" %}
