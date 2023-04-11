@@ -142,12 +142,25 @@ AnimationStateChange:
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Move.jpg?raw=true" width = "800">
 </div>
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/MousePicking/res.gif?raw=true" width = "800">
+</div>
+
 {% include feature_row id="Attack" type="center" %}
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Attack.jpg?raw=true" width = "800">
 </div>
 
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/AnimationState/Attack.gif?raw=true" width = "800">
+</div>
+
 {% include feature_row id="AnimationStateChange" type="center" %}
 <div style="text-align: center">
-<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Attack.jpg?raw=true" width = "800">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/AnimationChange.jpg?raw=true" width = "800">
+</div>
+
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/result4.gif?raw=true" width = "800">
 </div>
