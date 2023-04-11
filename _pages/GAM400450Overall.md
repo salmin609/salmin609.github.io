@@ -47,6 +47,11 @@ BillboardExplain2:
     title: "#6 Apply Texture"
     excerpt: "Apply captures on the billboard object."
 
+BillboardDone:
+  - image_path:
+    title: "Imposter Rendering Done!"
+    excerpt: ""
+
 ---
 
 {% include feature_row id="Title" type="center" %}
@@ -84,4 +89,10 @@ BillboardExplain2:
 {% include feature_row id="BillboardExplain2" type="center" %}
 <div style="text-align: center">
 <img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/BillboardTexturing.gif?raw=true" width = "800">
+</div>
+
+{% include feature_row id="BillboardDone" type="center" %}
+
+<div style="text-align: center">
+<img src="https://github.com/salmin609/salmin609.github.io/blob/master/images/GAM400/Overall/Billboards.gif?raw=true" width = "800">
 </div>
