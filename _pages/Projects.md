@@ -20,7 +20,7 @@ Gam400:
     alt: ""
     title: "Gam400+ Project"
     excerpt: "Massive animating object rendering"
-    url: "/GAM450Overall"
+    url: "/Gam400"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
