@@ -40,9 +40,11 @@ Gam300:
     height : "500"
     alt: ""
     title: "GAM300+ Project"
-    excerpt: "Royal Straight Flush"
-    url: "/GAM300"
-    btn_label: "Read More"
+    excerpt: "**Royal Straight Flush**.\n\n
+    **Unity**, **6 team members**, **Creative Director**\n\n
+    Implement **Weapon System**, **Animations**, **Particle Effects**"
+    url: "https://salmin609.github.io/Unity_RSF/"
+    btn_label: "Play"
     btn_class: "btn--inverse"
 CS300350:
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/300350DisplayImg.png?raw=true
