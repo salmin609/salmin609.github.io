@@ -10,9 +10,20 @@ header:
   cta_label:
   cta_url:
   caption:
-excerpt: "Digipen & Kmu undergraduate student"
+excerpt: "Digipen & Kmu Alumni"
 intro:
   - excerpt: ""
+
+Forge:
+  - image_path : https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "Imposter Rendering(The Forge engine)"
+    excerpt: "Imposter Rendering implemented with forge engine (D3D12, C++)"
+    url: "/Forge"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 Gam400:
   - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
     width : "2000"
@@ -92,16 +103,18 @@ CS380:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id = "Gam400" type = "left" %}
+{% include feature_row id = "Forge" type = "left" %}
 
-{% include feature_row id="Gam300" type="right" %}
+{% include feature_row id = "Gam400" type = "right" %}
 
-{% include feature_row id="Gam250" type="left" %}
+{% include feature_row id="Gam300" type="left" %}
 
-{% include feature_row id="CS300350" type="right" %}
+{% include feature_row id="Gam250" type="right" %}
 
-{% include feature_row id="CS500" type="left" %}
+{% include feature_row id="CS300350" type="left" %}
 
-{% include feature_row id="CS599" type="right" %}
+{% include feature_row id="CS500" type="right" %}
 
-{% include feature_row id="CS380" type="left" %}
+{% include feature_row id="CS599" type="left" %}
+
+{% include feature_row id="CS380" type="right" %}
