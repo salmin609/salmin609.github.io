@@ -15,7 +15,7 @@ intro:
   - excerpt: ""
 
 Forge:
-  - image_path : https://github.com/salmin609/salmin609.github.io/blob/master/images/Gam400_DisplayImg.png?raw=true
+  - image_path : https://github.com/salmin609/salmin609.github.io/blob/master/images/forge.png?raw=true
     width : "2000"
     height : "500"
     alt: ""
