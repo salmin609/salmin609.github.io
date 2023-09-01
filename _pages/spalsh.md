@@ -6,7 +6,8 @@ date: 2016-07-26T13:38:00
 background-color: dark;
 
 intro:
-  - excerpt: "Hi, I’m Ryan Kim, I was born on October 1st 1996 in South Korea, and currently study computer science in real-time interactive simulation at the Digipen - Redmond, Washington, USA. \n\n
+  - excerpt: "Hi! I’m Sangmin Kim, I was born on October 1st 1996 in South Korea. \n\n
+    DigiPen & KMU alumni and currently looking for a job in Korea. \n\n
               Most of my projects were focused on **Graphic techniques / Game development**. \n\n
               If you would like to see my works, please click the **Projects** button below.
               Thank you! 
@@ -17,7 +18,7 @@ ProjectButton:
     url: "/project"
 
 ContactInfo:
-  - excerpt: "**Phone** : (206-670-5224) \n\n
+  - excerpt: "**Phone** : 010-9699-1889 \n\n
               **Email** : ryan95kr@gmail.com"
 ---
 
