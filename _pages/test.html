@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WebGL #2 - 기초 2</title>
+</head>
+<body>
+<!-- 1. 캔버스 정의. WebGL로 렌더링한 결과가 표시됩니다.-->
+<canvas id="c" width="500" height="500"></canvas>
+ 
+<!-- 2. 버텍스 쉐이더를 작성합니다. -->
+<script id="2d-vertex-shader" type="notjs">
+// attribute는 buffer로부터 데이타를 받을 것입니다.
+attribute vec4 a_position;
+ 
+// 모든 shader는 main 함수를 가집니다.
+void main() {
+  // gl_Position은 버텍스 쉐이더에서 
+  // 설정을 담당하는 특수한 변수입니다.
+  gl_Position = a_position;
+}
+</script>
+ 
+<!-- 3. 프래그먼트 쉐이더를 작성합니다. -->
+<script id="2d-fragment-shader" type="notjs">
+// 프래그먼트 쉐이더는 기본 정밀도가 필요합니다.
+// 그래서 기본적으로 하나를 선택해서 설정하는데,
+// 여기서는 mediump을 선택했습니다. 
+// mediump는 중간 정밀도를 의미합니다. 
+precision mediump float;
+  
+void main() {
+   // gl_FragColor는 프래그먼트 쉐이더에서 
+  // 설정을 담당하는 특수한 변수입니다.
+  gl_FragColor = vec4(1, 0, 0.5, 1); // 붉은 보라색을 반환합니다.
+}
+</script> 
+ 
+<!-- 4. WegGL 자바스크립트 코드를 작성합니다. -->
+<script>
+//WebGL Rendering Context 생성 
+var canvas = document.getElementById("c");
+var gl = canvas.getContext("webgl");
+if (!gl) {
+    console.log('no webgl for you!');
+}
+ 
+//쉐이더 컴파일 및 링크 - 1단계: 쉐이더 문자열 가져오기 
+var vertexShaderSource = document.getElementById("2d-vertex-shader").text;
+var fragmentShaderSource = document.getElementById("2d-fragment-shader").text;
+ 
+//쉐이더 컴파일 및 링크 - 2단계 : 쉐이더 생성 및 컴파일 
+function createShader(gl, type, source) {
+  var shader = gl.createShader(type);
+  gl.shaderSource(shader, source);
+  gl.compileShader(shader);
+  var success = gl.getShaderParameter(shader, gl.COMPILE_STATUS);
+  if(success){
+    return shader;
+  }
+  console.log(gl.getShaderInfoLog(shader));
+  gl.deleteShader(shader);
+}
+var vertexShader = createShader(
+  gl, gl.VERTEX_SHADER, vertexShaderSource
+);
+var fragmentShader = createShader(
+  gl, gl.FRAGMENT_SHADER, fragmentShaderSource
+);
+ 
+//쉐이더 컴파일 및 링크 -  
+// 3단계 : 컴파일된 2개의 쉐이더를 1개의 프로그램으로 링크하기
+function createProgram(gl, vertexShader, fragmentShader) {
+  var program = gl.createProgram();
+  gl.attachShader(program, vertexShader);
+  gl.attachShader(program, fragmentShader);
+  gl.linkProgram(program);
+  var success = gl.getProgramParameter(
+    program, gl.LINK_STATUS
+  );
+  if (success) {
+    return program;
+  }
+  console.log(gl.getProgramInfoLog(program));
+  gl.deleteProgram(program);
+}
+var program = createProgram(
+  gl, vertexShader, fragmentShader
+);
+ 
+//버퍼에 데이타 공급 
+var positionBuffer = gl.createBuffer();
+gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+var positions = [
+  0, 0,
+  0, 0.5,
+  0.7, 0,
+];
+gl.bufferData(
+  gl.ARRAY_BUFFER, 
+  new Float32Array(positions), 
+  gl.STATIC_DRAW
+);
+ 
+//애트리뷰트의 위치 참조 
+var positionAttributeLocation = 
+   gl.getAttribLocation(program, "a_position");
+    
+    
+//뷰포트 설정 
+gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
+ 
+// canvas를 clear처리 
+gl.clearColor(0, 0, 0, 1);
+gl.clear(gl.COLOR_BUFFER_BIT);
+ 
+ 
+// 어느 셰이더 프로그램을 사용할지 지정
+gl.useProgram(program);
+ 
+//사용할 애트리뷰트 지정 
+gl.enableVertexAttribArray(positionAttributeLocation);
+ 
+// 위치 버퍼를 바인드 합니다.
+// 이 코드 전체를 보면 2번 바인드할 필요는 없지만,
+// 의미상...
+// 앞서 바인드는 데이터 공급을 위한 것이지만 
+// 이번 바인드는 애트리뷰트에서 사용할 버퍼를 지정한 것임.
+gl.bindBuffer(gl.ARRAY_BUFFER, positionBuffer);
+  
+// positionBuffer (ARRAY_BUFFER)에서 데이터를 가져오는 
+// 방법을 위치 애트리뷰트에게 알려 줌
+var size = 2;          // 각 반복마다 2개씩 버퍼 데이타 참조 
+var type = gl.FLOAT;   // 32bit 부동 소수점 값
+var normalize = false; // 데이터를 노말라이즈 하지 않는다.
+var stride = 0;        // 0 = move forward size * sizeof(type) 각 반복마다 다음 위치 
+var offset = 0;        // 버퍼 시작 위치 
+gl.vertexAttribPointer(
+  positionAttributeLocation, 
+  size, 
+  type, 
+  normalize, 
+  stride, 
+  offset
+);
+ 
+//GLSL 프로그램을 실행하도록 요청 
+var primitiveType = gl.TRIANGLES;
+var offset = 0;
+var count = 3;
+gl.drawArrays(primitiveType, offset, count);
+</script>
+ 
+</body>
+</html>
