@@ -97,6 +97,18 @@ CS380:
     url: "/CS380"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+
+WebGLTest:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/380_2.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "WebGL Test"
+    excerpt: ""
+    url: "/WebglTest"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
 ---
 
 
@@ -118,3 +130,7 @@ CS380:
 {% include feature_row id="CS599" type="left" %}
 
 {% include feature_row id="CS380" type="right" %}
+
+{% include feature_row id="WebGLTest" type="left" %}
+
+
