@@ -98,17 +98,38 @@ CS380:
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
-WebGLTest:
-  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/380_2.png?raw=true
+AnimateTriangle:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/ThreeJS/AnimTriangle.png?raw=true
     width : "2000"
     height : "500"
     alt: ""
-    title: "WebGL Test"
+    title: "Animate Triangle"
     excerpt: ""
-    url: "/WebglTest"
+    url: "https://salmin609.github.io/ThreeJsAnimatingTriangle/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 
+ParticleAnimation:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/ThreeJS/ParticleAnimation.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "Particle Animation"
+    excerpt: ""
+    url: "https://salmin609.github.io/ParticleAnimation/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+
+RayMarching:
+  - image_path: https://github.com/salmin609/salmin609.github.io/blob/master/images/ThreeJS/RayMarching.png?raw=true
+    width : "2000"
+    height : "500"
+    alt: ""
+    title: "Ray Marching"
+    excerpt: ""
+    url: "https://salmin609.github.io/RayMarching/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
 
@@ -131,6 +152,10 @@ WebGLTest:
 
 {% include feature_row id="CS380" type="right" %}
 
-{% include feature_row id="WebGLTest" type="left" %}
+{% include feature_row id="AnimateTriangle" type="left" %}
+
+{% include feature_row id="ParticleAnimation" type="right" %}
+
+{% include feature_row id="RayMarching" type="left" %}
 
 
